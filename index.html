@@ -3,14 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>gye-mong</title>
-    <link rel="shortcut icon" href="TemplateData/Icon.png">
+    <title>Unity WebGL Player | gye-mong</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-
-<script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/stompjs@2.3.3/lib/stomp.min.js"></script>
-
-
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -62,15 +57,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/GyeMong_Play.loader.js";
+      var loaderUrl = buildUrl + "/WebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/GyeMong_Play.data",
-        frameworkUrl: buildUrl + "/GyeMong_Play.framework.js",
-        codeUrl: buildUrl + "/GyeMong_Play.wasm",
+        dataUrl: buildUrl + "/WebGL.data",
+        frameworkUrl: buildUrl + "/WebGL.framework.js",
+        codeUrl: buildUrl + "/WebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Apptive-Game-Team",
         productName: "gye-mong",
-        productVersion: "a0.0.1-1",
+        productVersion: "0.0.1255",
         showBanner: unityShowBanner,
       };
 
